@@ -29,7 +29,7 @@ body {
     height: 100vh;
     width: 250px;
     position: fixed;
-    top: 0;
+    top: 66px;
     left: 0;
     background-color: #343a40;
     padding-top: 20px;
@@ -46,10 +46,17 @@ body {
     margin-bottom: 10px;
 }
 
-.sidebar a:hover,
-.sidebar a.active {
+.sidebar a:hover{
     background-color: #0062cc;
     color: #fff;
+    transition: background-color 0.2s;
+}
+.sidebar a.active {
+    /* background-color: #0062cc;
+    color: #fff;
+    transition: background-color 0.2s; */
+    /* background-color: #0062cc;
+    color: #fff; */
     transition: background-color 0.2s;
 }
 

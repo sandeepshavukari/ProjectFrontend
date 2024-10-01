@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report an Issue</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="index.html">CitVoice2Govt</a>
+</nav>
+
+<!-- Sidebar -->
+<div class="sidebar">
+    <a href="citizen-dashboard.html">Dashboard</a>
+    <a href="report-issue.html">Report an Issue</a>
+    <a href="my-issues.html">My Issues</a>
+    <a href="feedback.html">Feedback</a>
+    <a href="updates.html">Politician Updates</a>
+</div>
+
+<!-- Main Content -->
+<div class="main-content">
+    <h1>Report an Issue</h1>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Submit an Issue</h5>
+            <form>
+                <div class="form-group">
+                    <label for="issueTitle">Issue Title</label>
+                    <input type="text" class="form-control" id="issueTitle" placeholder="Enter issue title">
+                </div>
+                <div class="form-group">
+                    <label for="issueDesc">Description</label>
+                    <textarea class="form-control" id="issueDesc" placeholder="Describe the issue"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
