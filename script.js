@@ -40,3 +40,8 @@
 //         });
 //     });
 // </script>
+// Example of adding interactivity, e.g., handling the logout button click
+document.getElementById('logoutBtn').addEventListener('click', function() {
+    // Implement logout functionality here
+    alert('Logout button clicked');
+});

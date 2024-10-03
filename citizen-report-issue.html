@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report an Issue</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<!-- <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="index.html">CitVoice2Govt</a>
+</nav> -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Voice2Govt</a>
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="citizen-login.html">Logout</a></li>
+    </ul>
+</nav>
+
+<!-- Sidebar -->
+<div class="sidebar">
+    <a href="citizen-dashboard.html">Dashboard</a>
+    <a href="citizen-report-issue.html">Report an Issue</a>
+    <a href="citizen-my-issues.html">My Issues</a>
+    <a href="citizen-feedback.html">Feedback</a>
+    <a href="citizen-politician-updates.html">Politician Updates</a>
+</div>
+
+<!-- Main Content -->
+<div class="main-content">
+    <h1>Report an Issue</h1>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Submit an Issue</h5>
+            <form>
+                <div class="form-group">
+                    <label for="issueTitle">Issue Title</label>
+                    <input type="text" class="form-control" id="issueTitle" placeholder="Enter issue title">
+                </div>
+                <div class="form-group">
+                    <label for="issueDesc">Description</label>
+                    <textarea class="form-control" id="issueDesc" placeholder="Describe the issue"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="issueDocument">Issue Document</label><br>
+                    <!-- <textarea class="form-control" id="issueDesc" ></textarea>  -->
+                    <input type="file" name="issueDocument" id="issueDocument" >
+                </div>
+                <div class="form-group">
+                    <label for="Constitution">
+                        <select name="" id="">
+                            <option value="">Select a Constitution</option>
+                            <option value="vijayawada">Vijayawada</option>
+                            <option value="mangalagiri">Mangalagiri</option>
+                            <option value="Vishakapatnam">Vishakapatnam</option>
+                            <option value="palasa">Palasa</option>
+                            <option value="itchapuram">Itchapuram</option>
+                        </select>
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <p>&copy; 2023 Voice2Govt</p>
+</footer>
+
+</body>
+</html>
